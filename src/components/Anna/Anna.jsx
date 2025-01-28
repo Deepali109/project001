@@ -50,7 +50,7 @@ const Anna = () => {
 
     const callOpenAI = async (transcript) => {
         try {
-            const response = await axios.post(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCRn0pQX-QT0NVQCGp40n9HJMp4-AD_b-E`, {
+            const response = await axios.post(``, {
                 contents: [{ parts: [{ text: transcript }] }],
             });
 
