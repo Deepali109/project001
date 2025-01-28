@@ -33,7 +33,7 @@ const ScrollComponent = ({ title }) => {
     <div className="recommended-container">
       <h2>Puzzle</h2>
       <div className="scroll-wrapper">
-        <button className="scroll-button left" onClick={() => scroll('left')}>❮</button>
+        {/* <button className="scroll-button left" onClick={() => scroll('left')}>❮</button> */}
         <div className="scrollable-cards" ref={scrollRef}>
           {recommendedItems.map((item) => (
             <a key={item.id} href={item.link} target="_blank" rel="noopener noreferrer">
@@ -44,7 +44,7 @@ const ScrollComponent = ({ title }) => {
             </a>
           ))}
         </div>
-        <button className="scroll-button right" onClick={() => scroll('right')}>❯</button>
+        {/* <button className="scroll-button right" onClick={() => scroll('right')}>❯</button> */}
       </div>
     </div>
   );

@@ -70,6 +70,7 @@ const Navbar = () => {
       </Link>
       <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
         <ul>
+          <li><Link to='/anna' onClick={handleMenuToggle}>AI</Link></li>
           <li><Link to='/' onClick={handleMenuToggle}>Home</Link></li>
           <li><Link to='/about' onClick={handleMenuToggle}>About</Link></li>
         </ul>

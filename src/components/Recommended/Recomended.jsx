@@ -32,7 +32,7 @@ const Recommended = ({ title }) => {
     <div className="recommended-container">
       <h2>{title || 'Maths Games'}</h2>
       <div className="scroll-wrapper">
-        <button className="scroll-button left" onClick={() => scroll('left')}>❮</button>
+        {/* <button className="scroll-button left" onClick={() => scroll('left')}>❮</button> */}
         <div className="scrollable-cards" ref={scrollRef}>
           {recommendedItems.map((item) => (
             <a 
@@ -49,7 +49,7 @@ const Recommended = ({ title }) => {
             </a>
           ))}
         </div>
-        <button className="scroll-button right" onClick={() => scroll('right')}>❯</button>
+        {/* <button className="scroll-button right" onClick={() => scroll('right')}>❯</button> */}
       </div>
     </div>
   );

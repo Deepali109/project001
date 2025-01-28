@@ -4,7 +4,6 @@ import Background from "./components/Background/Background";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import OtherComponents from "./components/OtherComponents/OtherComponents";
-
 function App() {
   const heroData = [
     { text1: "KidZone Edugames", text2: "An Education Webgames For Kids" },
@@ -42,7 +41,8 @@ function App() {
             </>
           }
         />
-        {/* <Route path="/about" element={<AboutSection />} />
+        {/* <Route path="/anna" element={<Anna />} /> */}
+        {/* 
         <Route path="/shipping-policy" element={<ShippingPolicy />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/contact" element={<Contact />} />
